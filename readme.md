@@ -1,4 +1,4 @@
-# start with react # starting with react
+# starting with react
 
 # terminal and Run this commend:-
 
