@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 function App() {
 
-  
+
   let [counter, setCounter] = useState(2);
 
   //  let counter = 45;
@@ -38,3 +38,16 @@ function App() {
 }
 
 export default App
+
+/*
+Read Documentation : https://www.w3schools.com/react/react_usestate.asp
+
+The React useState Hook allows us to track state in a function component.
+State generally refers to data or properties that need to be tracking in an application.
+
+
+What Can State Hold : -
+The useState Hook can be used to keep track of strings, numbers, booleans, arrays, objects, and any combination of these!
+We could create multiple state Hooks to track individual values.
+
+*/
