@@ -22,8 +22,10 @@ function App() {
   },[length, numberAllowed, charAllowed])
 
 
+  // after copy we give user to feedBack
   const passRef = useRef(null);
 
+  // copy from window and past to our clipbord
   function copyTextFromClipBord(){
     window.navigator.clipboard.writeText(password)
     passRef.current?.select();
